@@ -420,9 +420,20 @@ h3{
 	color: #c11525 !important;
 }
 .sponsor_logo{
-	height: 35px;
-	margin: 20px;
-	background-size: cover;
+	width: 45px;
+	margin: 10px;
+}
+.sponsor_logo_b{
+	width: 95px;
+	margin: 10px;
+}
+.sponsor_logo_b img{
+	width: 100%;
+	margin: 0px;
+}
+.sponsor_logo img{
+	width: 100%;
+	margin: 0px;
 }
 .t_9{
 	margin-top: 30px;
@@ -550,6 +561,14 @@ footer .row .col-12{
 	#register .btn_register_1{
 	    margin-top: 100px !important;
 	}
+	.sponsor_logo{
+		width: 45px;
+		margin: 30px;
+	}
+	.sponsor_logo_b{
+		width: 95px;
+		margin: 30px;
+	}
 }
 @media (min-width:993px) and (max-width:1920px){
 	.navbar-expand-lg .navbar-nav .nav-link{
@@ -621,6 +640,14 @@ footer .row .col-12{
 	}
 	#register .btn_register_1{
 	    margin-top: 100px !important;
+	}
+	.sponsor_logo{
+		width: 45px;
+		margin: 30px;
+	}
+	.sponsor_logo_b{
+		width: 95px;
+		margin: 30px;
 	}
 }
 

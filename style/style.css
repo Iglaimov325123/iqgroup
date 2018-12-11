@@ -1,0 +1,627 @@
+.selector-for-some-widget {
+	box-sizing: content-box;
+}
+@font-face {
+	font-family: "MuseoSansCyrl";
+	src: url("../fonts/MuseoSansCyrl.otf") format("opentype");
+	font-weight: 100;
+}
+@font-face {
+	font-family: "MuseoSansCyrl";
+	src: url("../fonts/MuseoSansCyrl_0.otf") format("opentype");
+	font-weight: 300;
+}
+@font-face {
+	font-family: "MuseoSansCyrl";
+	src: url("../fonts/MuseoSansCyrl_1.otf") format("opentype");
+	font-weight: 500;
+}
+@font-face {
+	font-family: "MuseoSansCyrl";
+	src: url("../fonts/MuseoSansCyrl_2.otf") format("opentype");
+	font-weight: 700;
+}
+@font-face {
+	font-family: "MuseoSansCyrl";
+	src: url("../fonts/MuseoSansCyrl_3.otf") format("opentype");
+	font-weight: 900;
+}
+body {
+	font-family: "MuseoSansCyrl" !important;
+	font-weight: 100 !important;
+}
+.hidden{
+	display: none !important;
+}
+.navbar{
+	padding: 0px !important;
+}
+.navbar-light .navbar-toggler{
+	border: none;
+}
+#main_menu{
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+.navbar-brand{
+	padding-top: 0px !important; 
+	padding-bottom: 0px !important;
+}
+#stocks .t_1{
+	background: none;
+	height: 419px;
+}
+.number_people_block{
+	width: 180px;
+	height: 60px;
+	display: block;
+	margin: 0px auto;
+	padding: 0px;
+	font-size: 16px;
+	font-weight: 300;
+}
+.t_2{
+	height: 180px;
+}
+.number_people_block .nb_1, .number_people_block .nb_2, .number_people_block .nb_3,.number_people_block .nb_4{
+	border:1px solid #bfc3d3;
+	width: 38px;
+	height: 59px;
+	display: inline-block;
+    font-size: 48px;
+    color: #c11525;
+    line-height: 63px;
+    padding-left: 3px;
+    margin-right: -5px;
+}
+.number_people_block .nb_1{
+	padding-left: 9px;
+	border-right:none;
+}
+.number_people_block .nb_4{
+	border-left:none;
+    font-size: 48px;
+    color: #c11525;
+    padding-left: 3px;
+}
+.number_people{
+	letter-spacing: 13.2px;
+    font-size: 48px;
+    color: #c11525;
+    position: absolute;
+    top: 66px;
+    margin-left: 4px;
+}
+
+h3{
+	font-size: 24px;
+	font-weight: 300;
+	padding-top: 20px;
+}
+
+.hr{
+	height: 1px;
+	width: 75px;
+	background-color: #bfc3d3;
+	margin:20px auto;
+}
+.red{
+	color: #c11525;
+}
+.bg_red{
+	background-color: #c11525;
+}
+.t_4_header{
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 18px;
+	margin-top: 30px;
+}
+.t_2{
+	font-weight: 300;
+	font-size: 16px;
+	padding-top: 30px;
+}
+#stocks .t_1{
+	background: url(../images/head_pic_stocks.png) !important;
+	background-size: cover !important;
+	height: 419px;
+	margin-top: -40px;
+	position: relative;
+	z-index: 100;
+}
+#stocks .t_1_line{
+	height: 40px;
+	font-weight: 500 !important;
+	color: #fff !important;
+	background-color: rgba(189,15,25,0.6);
+	padding: 10px 0px;
+	font-size: 14px;
+	z-index: 101;
+	position: relative;
+}
+#stocks .t_1_head_text_2{
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: 700;
+	padding-top: 60px;
+}
+#stocks .t_1_head_text_2 p{
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 20px;
+}
+
+#register .t_1{
+	background: url(../images/register_t_1_bg.png) !important;
+	background-size: cover !important;
+	height: 410px;
+	margin-top: 0px !important;
+	position: relative;
+	z-index: 100;
+}
+#register .t_1_line{
+	height: 40px;
+	font-weight: 500 !important;
+	color: #fff !important;
+	background-color: rgba(189,15,25,0.6);
+	padding: 10px 0px;
+	font-size: 14px;
+	z-index: 101;
+	position: relative;
+}
+#register .t_1_head_text_2{
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: 700;
+	padding-top: 40px !important;
+}
+#register .t_1_head_text_2 p{
+	font-size: 24px !important;
+	font-weight: 300 !important;
+	line-height: 30px !important;
+}
+#register .str_block{
+	margin-top: 20px;
+}
+#register .register_str_title{
+	font-size: 16px !important;
+	font-weight: 300;
+	padding-left: 20px;
+}
+#register .str_block p{
+	color: #8b92a3;
+	font-size: 14px;
+	padding-left: 20px;
+	padding-bottom: 0px !important;
+	margin-bottom: 5px !important;
+}
+#register input{
+	width: 100%;
+	border: 1px solid #000000;
+	text-align: center;
+	font-size: 14px;
+	padding: 7px 0px;
+	color: #8b92a3;
+	margin-top: 5px;
+}
+#register input[name="send_form"]{
+	color: #ffffff !important;
+}
+#register .social_links_img{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 10px;
+}
+#register .social_links_img.sl_2{
+	margin-top: 44px;
+}
+#register .social_links_img.sl_3{
+	margin-top: 87px;
+}
+#register input[name="social_links_1"], #register input[name="social_links_2"], #register input[name="social_links_3"]{
+	width:82%;
+	margin-left: 50px;
+	float: right;
+}
+#register .register_str_title:before{
+	content: "";
+	width: 8px;
+	height: 10px;
+	background: url(../images/red_arrow.png);
+	position: absolute;
+	top: 7px;
+	left: 16px;
+}
+#register .thumb_photo{
+	width: 107px;
+	height: 107px;
+}
+#register .choose_btn{
+    width: 160px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    padding: 11px 0px;
+    cursor: pointer;
+    display: block;
+    background: #c11525;
+    color: #ffffff;
+    text-transform: uppercase;
+    float: right;
+    margin-top: 30px;
+}
+#register .choose_btn:hover {
+
+}
+#file{
+	display: none;
+}
+.text_border{
+	width: 90%;
+	height: 190px;
+	margin: 0px auto;
+	position: absolute;
+	top: -1px;
+	border: 1px solid #ffffff;
+}
+.arrow_down{
+	width: 60px;
+	height: 60px;
+	border-radius: 50px;
+	background-color: rgba(0,0,0,0.5);
+	padding: 20px;
+	margin: 20px auto;
+}
+
+.t_5_title{
+	padding-top: 45px;
+	padding-bottom: 30px;
+}
+
+.t_7{
+	min-height: 480px;
+	background: url(../images/t_7_bg.png);
+}
+.t_7_title{
+	text-align: left;
+	font-size: 40px;
+	font-weight: 700;
+	padding-top: 20px;
+	padding-left: 20px;
+	margin-left: 40px; 
+	border-left: 1px solid #ffffff;
+	color: #ffffff;
+	padding-bottom: 0px !important;
+}
+.t_7_title .t_7_title_2{
+	padding-left: 0px !important;
+	font-size: 16px;
+	font-weight: 500;
+}
+.company_expenses{
+	padding-top: 20px;
+}
+.company_expenses .exp_text{
+	padding-left: 5px !important;
+	height: 60px;
+	display: table;
+}
+.company_expenses .exp_text div{
+	font-size: 16px;
+	display: table-cell;
+	vertical-align: middle;
+	font-weight: 300;
+	padding-left: 5px !important;
+}
+
+.about_text{
+	margin: 20px 0px 20px 14px;
+	border-left: 1px solid #c11525;
+	font-size: 16px;
+	font-weight: 300;
+}
+.about_text span{
+	font-weight: 700;
+}
+.t_6{
+	background-color: #c11525;
+}
+.t_6_title{
+	color: #ffffff;
+	padding-top: 30px;
+	font-size: 23.96px;
+}
+.white_bg{
+	background-color: #ffffff !important;
+}
+#success_register{
+	background: url(../images/reg_success_bg.png);
+	background-size: cover;
+	height: 480px;
+	color: #ffffff;
+}
+#success_register .thanks_title_1{
+	font-size: 24px;
+	font-weight: 700;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+#success_register .thanks_title_2{
+	font-size: 18px;
+	font-weight: 300;
+}
+.company_advantages{
+	padding-top: 20px;
+	color: #ffffff;
+	font-weight: 300;
+	font-size: 16px;
+}
+.company_advantages .adv_img{
+	margin-left: 10px !important;
+}
+.company_advantages .adv_text{
+	padding-left: 5px !important;
+	height: 60px;
+	display: table;
+}
+.company_advantages .adv_text div{
+	font-size: 16px;
+	display: table-cell;
+	vertical-align: middle;
+	font-weight: 300;
+	padding-left: 5px !important;
+}
+.company_advantages .adv_text div span{
+	font-weight: 700;
+}
+.btn_register_1{
+	display: block !important;
+	border-radius: 0px !important;
+	background-color: #c11525 !important;
+	font-size: 16px !important;
+	font-weight: 500 !important;
+	border-color: transparent !important;
+	margin-top: 180px;
+}
+.btn_register_2{
+	display: block !important;
+	border-radius: 0px !important;
+	background-color: #c11525 !important;
+	font-size: 16px !important;
+	font-weight: 500 !important;
+	margin-top: 30px;
+	border: 1px solid #ffffff !important;
+	height: 35px;
+    padding-top: 6px;
+    margin-bottom: 20px;
+}
+.btn_register_3{
+	display: block !important;
+	border-radius: 0px !important;
+	background-color: #c11525 !important;
+	font-size: 16px !important;
+	font-weight: 500 !important;
+	border-color: transparent !important;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.btn_register_4{
+	display: block !important;
+	border-radius: 0px !important;
+	background-color: #ffffffff !important;
+	font-size: 16px !important;
+	font-weight: 500 !important;
+	border-color: transparent !important;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	color: #c11525 !important;
+}
+.sponsor_logo{
+	height: 35px;
+	margin: 20px;
+	background-size: cover;
+}
+.t_9{
+	margin-top: 30px;
+}
+.partners_link{
+	color: #000000;
+	text-decoration: underline;
+}
+
+footer .row{
+	height: 60px;
+	background-color: #bfc3d3;
+	font-size: 14px;
+	font-weight: 300;
+}
+footer .row .col-12{
+	padding-top: 20px;
+}
+
+
+@media (max-width: 480px){ 
+	.navbar-expand-lg .navbar-nav .nav-link{
+		padding-left: 10px;
+	}
+	.t_1{
+		background: url(../images/head_pic_stocks.png) !important;
+		background-size: cover !important;
+		height: 419px;
+		margin-top: -40px;
+		position: relative;
+		z-index: 100;
+	}
+	.t_1_line{
+		height: 40px;
+		font-weight: 500 !important;
+		color: #fff !important;
+		background-color: rgba(189,15,25,0.6);
+		padding: 10px 0px;
+		font-size: 14px;
+		z-index: 101;
+		position: relative;
+	}
+	#register .btn_register_1{
+	    margin-top: 100px !important;
+	}
+	#register .btn_register_3{
+		width: 100%;
+		margin-top: 20px;
+		color: #ffffff;
+	}
+
+}
+
+@media (min-width:768px) and (max-width:992px){
+	.navbar-expand-lg .navbar-nav .nav-link{
+		padding-left: 10px;
+	}
+	.t_1{
+		background: url(../images/head_pic_stocks.png) !important;
+		background-size: cover !important;
+		height: 419px;
+		margin-top: -40px;
+		position: relative;
+		z-index: 100;
+	}
+	.t_1_line{
+		height: 40px;
+		font-weight: 500 !important;
+		color: #fff !important;
+		background-color: rgba(189,15,25,0.6);
+		padding: 10px 0px;
+		font-size: 14px;
+		z-index: 101;
+		position: relative;
+	}
+	.t_1_head_text_2{
+		color: #ffffff;
+		font-size: 30px;
+		font-weight: 700;
+		padding-top: 60px;
+	}
+	.t_1_head_text_2 p{
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 20px;
+	}
+	.text_border{
+		width: 96%;
+		height: 190px;
+		margin: 0px auto;
+		position: absolute;
+		top: -1px;
+		border: 1px solid #ffffff;
+	}
+	.btn_register_1{
+		margin-top: 100px !important;
+	}
+	.btn_register_1{
+		width: 300px !important;
+		margin:190px auto 20px!important;
+	}
+	.btn_register_2, .btn_register_3,.btn_register_4{
+		width: 300px !important;
+		margin:20px auto !important;	
+	}
+	.t_2{
+		margin-top: 60px;
+	}
+	.t_3{
+		border-left: solid 1px rgba(193,21,37,0.3);
+		margin-top: 20px;
+		padding-top: 0px !important;
+		padding-bottom: 20px !important;
+		padding-left: 10px !important;
+	}
+	.t_2, .t_2 .number_people_block p{
+		font-size: 24px;
+	}
+	.only_phone{
+		display: none;
+	}
+	.t_7{
+		min-height: 400px;
+	}
+	#register .btn_register_1{
+	    margin-top: 100px !important;
+	}
+}
+@media (min-width:993px) and (max-width:1920px){
+	.navbar-expand-lg .navbar-nav .nav-link{
+		padding-left: 10px;
+	}
+	.t_1{
+		background: url(../images/head_pic_stocks.png) !important;
+		background-size: cover !important;
+		height: 419px;
+		margin-top: -40px;
+		position: relative;
+		z-index: 100;
+	}
+	.t_1_line{
+		height: 40px;
+		font-weight: 500 !important;
+		color: #fff !important;
+		background-color: rgba(189,15,25,0.6);
+		padding: 10px 0px;
+		font-size: 14px;
+		z-index: 101;
+		position: relative;
+	}
+	.t_1_head_text_2{
+		color: #ffffff;
+		font-size: 30px;
+		font-weight: 700;
+		padding-top: 60px;
+	}
+	.t_1_head_text_2 p{
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 20px;
+	}
+	.text_border{
+		width: 97%;
+		height: 190px;
+		margin: 0px auto;
+		position: absolute;
+		top: -1px;
+		border: 1px solid #ffffff;
+	}
+	.btn_register_1{
+		width: 300px !important;
+		margin:200px auto 20px!important;
+	}
+	.btn_register_2, .btn_register_3,.btn_register_4{
+		width: 300px !important;
+		margin:20px auto !important;	
+	}
+	.t_2{
+		margin-top: 60px;
+	}
+	.t_3{
+		border-left: solid 1px rgba(193,21,37,0.3);
+		margin-top: 20px;
+		padding-top: 0px !important;
+		padding-bottom: 20px !important;
+		padding-left: 60px !important;
+	}
+	.t_2, .t_2 .number_people_block p{
+		font-size: 24px;
+	}
+	.only_phone{
+		display: none;
+	}
+	.t_7{
+		min-height: 400px;
+	}
+	#register .btn_register_1{
+	    margin-top: 100px !important;
+	}
+}
+
+

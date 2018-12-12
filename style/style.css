@@ -51,7 +51,6 @@ body {
 	padding-bottom: 0px !important;
 }
 #stocks .t_1{
-	background: none;
 	height: 419px;
 }
 .number_people_block{
@@ -132,7 +131,7 @@ h3{
 	padding-top: 30px;
 }
 #stocks .t_1{
-	background: url(../images/head_pic_stocks.png) !important;
+	/*background: url(../images/head_pic_stocks.png) !important;*/
 	background-size: cover !important;
 	height: 419px;
 	margin-top: -40px;
@@ -162,7 +161,7 @@ h3{
 }
 
 #register .t_1{
-	background: url(../images/register_t_1_bg.png) !important;
+	background: url(../images/b_bg_2.jpg);
 	background-size: cover !important;
 	height: 410px;
 	margin-top: 0px !important;
@@ -291,7 +290,7 @@ h3{
 
 .t_7{
 	min-height: 480px;
-	background: url(../images/t_7_bg.png);
+	background-size: cover;
 }
 .t_7_title{
 	text-align: left;
@@ -466,7 +465,7 @@ footer .row .col-12{
 	.navbar-expand-lg .navbar-nav .nav-link{
 		padding-left: 10px;
 	}
-	.t_1{
+	#stocks .t_1{
 		background: url(../images/head_pic_stocks.png) !important;
 		background-size: cover !important;
 		height: 419px;
@@ -474,7 +473,7 @@ footer .row .col-12{
 		position: relative;
 		z-index: 100;
 	}
-	.t_1_line{
+	#stocks .t_1_line{
 		height: 40px;
 		font-weight: 500 !important;
 		color: #fff !important;
@@ -483,6 +482,9 @@ footer .row .col-12{
 		font-size: 14px;
 		z-index: 101;
 		position: relative;
+	}
+	#register .t_1{
+		background: url(../images/register_t_1_bg.png) !important;
 	}
 	#register .btn_register_1{
 	    margin-top: 100px !important;
@@ -492,6 +494,9 @@ footer .row .col-12{
 		margin-top: 20px;
 		color: #ffffff;
 	}
+	.t_7{
+		background: url(../images/t_7_bg.png);
+	}
 
 }
 
@@ -499,15 +504,15 @@ footer .row .col-12{
 	.navbar-expand-lg .navbar-nav .nav-link{
 		padding-left: 10px;
 	}
-	.t_1{
-		background: url(../images/head_pic_stocks.png) !important;
+	#stocks .t_1{
+		background: url(../images/b_bg_1.jpg) !important;
 		background-size: cover !important;
 		height: 419px;
 		margin-top: -40px;
 		position: relative;
 		z-index: 100;
 	}
-	.t_1_line{
+	#stocks. t_1_line{
 		height: 40px;
 		font-weight: 500 !important;
 		color: #fff !important;
@@ -517,13 +522,13 @@ footer .row .col-12{
 		z-index: 101;
 		position: relative;
 	}
-	.t_1_head_text_2{
+	#stocks .t_1_head_text_2{
 		color: #ffffff;
 		font-size: 30px;
 		font-weight: 700;
 		padding-top: 60px;
 	}
-	.t_1_head_text_2 p{
+	#stocks .t_1_head_text_2 p{
 		font-size: 16px;
 		font-weight: 500;
 		line-height: 20px;
@@ -565,6 +570,7 @@ footer .row .col-12{
 	}
 	.t_7{
 		min-height: 400px;
+		background: url(../images/b_bg_5.jpg);
 	}
 	#register .btn_register_1{
 	    margin-top: 100px !important;
@@ -574,15 +580,15 @@ footer .row .col-12{
 	.navbar-expand-lg .navbar-nav .nav-link{
 		padding-left: 10px;
 	}
-	.t_1{
-		background: url(../images/head_pic_stocks.png) !important;
+	#stocks .t_1{
+		background: url(../images/b_bg_1.jpg) !important;
 		background-size: cover !important;
 		height: 419px;
 		margin-top: -40px;
 		position: relative;
 		z-index: 100;
 	}
-	.t_1_line{
+	#stocks .t_1_line{
 		height: 40px;
 		font-weight: 500 !important;
 		color: #fff !important;
@@ -592,13 +598,13 @@ footer .row .col-12{
 		z-index: 101;
 		position: relative;
 	}
-	.t_1_head_text_2{
+	#stocks .t_1_head_text_2{
 		color: #ffffff;
 		font-size: 30px;
 		font-weight: 700;
 		padding-top: 60px;
 	}
-	.t_1_head_text_2 p{
+	#stocks .t_1_head_text_2 p{
 		font-size: 16px;
 		font-weight: 500;
 		line-height: 20px;
@@ -637,6 +643,7 @@ footer .row .col-12{
 	}
 	.t_7{
 		min-height: 400px;
+		background: url(../images/b_bg_5.jpg);
 	}
 	#register .btn_register_1{
 	    margin-top: 100px !important;

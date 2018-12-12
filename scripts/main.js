@@ -30,7 +30,7 @@ var f = file[0]
   // Read in the image file as a data URL.
   reader.readAsDataURL(f);
 }
-document.getElementById('file').addEventListener('change', handleFileSelectSingle, false);
+
 
 
 
@@ -62,6 +62,19 @@ $(document).ready(function () {
         e.preventDefault();
     });
     $("#phone").mask("+7 (999) 999-9999");
+
+    $(".navbar-toggler-icon").on('click', function(){
+        $("#navbar1").animate({left: "0"}, 400, function(){
+            $("#navbar1").addClass('show');
+          });
+    });
+
+    $("#close_menu").on("click", function(){
+      $("#navbar1").animate({left: "-100vw"}, 400, function(){
+        $("#navbar1").removeClass('show collapse');
+      });
+    });
   });
+
 
 

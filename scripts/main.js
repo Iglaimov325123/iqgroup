@@ -32,4 +32,36 @@ var f = file[0]
 }
 document.getElementById('file').addEventListener('change', handleFileSelectSingle, false);
 
-  
+
+
+$(document).ready(function () {
+    $("#register_form").submit(function(e) {
+      e.preventDefault();
+        var form_data = new FormData(this);
+
+        $.ajax({
+            type: 'POST',
+            url: 'send_reg_form.php',
+            data: form_data,
+            processData: false,
+            contentType: false,
+            beforeSend: function() {
+                $('#send_form').val('Отправляем...');
+            },
+            success: function(d) {
+                $(this).find('input').val('');
+                $.fancybox.open({src  : '#success_register', type : 'inline',});
+                setTimeout(function(){
+                    $.fancybox.close(true);
+                }, 4000);
+            },
+            error: function(xhr){
+                alert('Ошибка! Попробуйте позже!');
+            }
+        });
+        e.preventDefault();
+    });
+    $("#phone").mask("+7 (999) 999-9999");
+  });
+
+

@@ -30,6 +30,9 @@ body {
 	font-family: "MuseoSansCyrl" !important;
 	font-weight: 100 !important;
 }
+.main_logo{
+	height: 60px;
+}
 .hidden{
 	display: none !important;
 }
@@ -116,6 +119,12 @@ h3{
 	font-weight: 700;
 	line-height: 18px;
 	margin-top: 30px;
+}
+#output{
+	overflow: hidden;
+    height: 107px;
+    width: 107px;
+    display: inline-block;
 }
 .t_2{
 	font-weight: 300;
@@ -235,7 +244,6 @@ h3{
 	left: 16px;
 }
 #register .thumb_photo{
-	width: 107px;
 	height: 107px;
 }
 #register .choose_btn{
@@ -561,14 +569,6 @@ footer .row .col-12{
 	#register .btn_register_1{
 	    margin-top: 100px !important;
 	}
-	.sponsor_logo{
-		width: 45px;
-		margin: 30px;
-	}
-	.sponsor_logo_b{
-		width: 95px;
-		margin: 30px;
-	}
 }
 @media (min-width:993px) and (max-width:1920px){
 	.navbar-expand-lg .navbar-nav .nav-link{
@@ -640,14 +640,6 @@ footer .row .col-12{
 	}
 	#register .btn_register_1{
 	    margin-top: 100px !important;
-	}
-	.sponsor_logo{
-		width: 45px;
-		margin: 30px;
-	}
-	.sponsor_logo_b{
-		width: 95px;
-		margin: 30px;
 	}
 }
 

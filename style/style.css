@@ -103,7 +103,7 @@ h3{
 
 .hr{
 	height: 1px;
-	width: 75px;
+	width: 75px !important;
 	background-color: #bfc3d3;
 	margin:20px auto;
 }
@@ -669,6 +669,7 @@ footer .row .col-12{
 		background-position: bottom !important;
 	}
 
+
 }
 /* NEW navbar */
 @media (min-width: 180px) and (max-width: 991px){
@@ -931,4 +932,13 @@ flex: 1 1 25%;
 	padding-top: 40px;
 	margin-bottom: 100px;
 	color: #ffffff;
+}
+
+.rating_numbers{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.rating_list{
+	list-style: none;
+	padding-left: 0px!important;
 }

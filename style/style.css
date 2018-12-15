@@ -977,6 +977,9 @@ footer .row .col-12{
 	color: #ffffff;
 }
 
+.rating_title {
+	margin-top: 20px;
+} 
 .rating_numbers{
 	margin-top: 20px;
 	margin-bottom: 20px;

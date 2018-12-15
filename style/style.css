@@ -539,6 +539,14 @@ footer .row .col-12{
 		font-size: 10px !important;
 		font-weight: 300;
 	}
+	.sponsor_top_bg{
+		background: url(../images/sponsor_top_bg.png) !important;
+		background-size: cover;
+		height: 80px !important;
+	}
+	.user_lk_sponor_block .user_lk_sponor_name{
+		padding: 0px 5px !important;
+	}
 }
 
 @media (min-width:768px) and (max-width:992px){
@@ -1114,4 +1122,53 @@ footer .row .col-12{
 .user_stat .time_remaining div span.t_space{
 	border: none !important;
 	margin: 0px 1px 0px 8px; 
+}
+
+.sponsor_top_bg{
+	background: url(../images/sponsor_top_bg.png);
+	background-size: cover;
+	height: 300px;
+}
+.black{
+	background-color: #000000;
+}
+.user_lk_sponor_block{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: stretch;
+	height: 35px;
+}
+.user_lk_sponor_block .user_lk_sponor_name{
+	display: flex;
+	flex: 1 1 30%;
+	font-size: 12px;
+	font-weight: 300;
+	padding: 0px 5px;
+	background: #f3f5fa;
+	align-items: center;
+}
+.user_lk_sponor_block .user_lk_sponor_scope{
+	flex: 1 1 15%;
+	font-size: 14px;
+	font-weight: 500;
+	color: #c11525;
+	padding: 5px 10px;
+	margin: 0px 0px 0px 5px;
+	border: 1px solid #bfc3d3; 
+	text-align: center;
+}
+.user_lk_sponor_block .user_lk_sponor_social{
+	flex: 1 1 55%;
+	font-size: 12px;
+	padding: 0px 10px;
+}
+.user_lk_sponor_block .user_lk_sponor_social a img{
+	width: 30px;
+}
+hr{
+	margin: 5px 0px !important;
+}
+.sponsor_main_cont{
+	margin-bottom: 30px;
 }

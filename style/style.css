@@ -870,7 +870,7 @@ footer .row .col-12{
 	flex: 0 0 90px;
 }
 #conditions .about_companies .about_companies_img img{
-	margin: auto; 
+	align-items: center;
 }
 #conditions .about_companies .about_companies_info{
 	flex: 1 1 25%;
@@ -888,17 +888,58 @@ footer .row .col-12{
 }
 #conditions .about_companies .about_companies_site{
 	font-size: 14px;
-	color: #c11525;
+	color: #c11525!important;
 	font-weight: 700; 
 	display: inline-block;
-	line-height: 37px;
+	line-height: 18px;
 	width: 100%;
+}
+.co_1{
+	margin-top: 21px;
+	width: 90px;
+}
+.co_2{
+	height: 73px;
+    display: block;
+    margin: 5px auto;
+}
+.co_3{
+	width: 90px;
+    margin-top: 20px;
+}
+.co_4{
+	height: 80px;
+    margin: 5px auto;
+    display: block;
+}
+.co_5{
+	width: 82px;
+    display: block;
+    margin: 30px auto;
+}
+.co_6{
+	width: 84px;
+    display: block;
+    margin: 30px auto;
+}
+.co_7{
+	display: block;
+    height: 80px;
+    margin: 4px auto;
+}
+#conditions .about_companies .about_companies_site a{
+	color: #c11525!important;
 }
 #conditions .companies_contacts{
 	width: 100%;
 	height: 130px;
 	margin-bottom: 15px;
 	border-bottom: 1px solid #c8ccda;
+}
+#conditions .companies_contacts div,.about_companies div{
+	overflow: hidden !important;
+	text-overflow: ellipsis !important;
+	white-space: nowrap;
 }
 #conditions .companies_contacts .companies_contacts_title{
 	display: block;
@@ -912,6 +953,9 @@ footer .row .col-12{
 	font-size: 14px;
 	line-height: 30px;
 	text-align: left;
+	white-space: nowrap;
+    overflow: hidden;
+	text-overflow: ellipsis;
 }
 #conditions .companies_contacts .companies_contacts_address:before, 
 #conditions .companies_contacts .companies_contacts_phone:before, 

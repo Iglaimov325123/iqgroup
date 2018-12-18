@@ -99,6 +99,7 @@
     $boundary = "--".md5(uniqid(time())); // генерируем разделитель
     $headers .= "MIME-Version: 1.0\n";
     $headers .="Content-Type: multipart/mixed; boundary=\"$boundary\"\n";
+    $headers .= "From: noreply@iqural.ru \r\n";
     $multipart .= "--$boundary\n";
     $kod = 'UTF-8';
     $multipart .= "Content-Type: text/html; charset=$kod\n";

@@ -74,6 +74,48 @@ $(document).ready(function () {
         $("#navbar1").removeClass('show collapse');
       });
     });
+
+    $(".see_pass").on("click", function(){
+      if ($("input[name=password]").attr("type") == "password") {
+          $("input[name=password]").attr({"type":"text"});
+          $(this).addClass("not_see");
+      } else{
+        $("input[name=password]").attr({"type":"password"});
+        $(this).removeClass("not_see"); 
+      }
+    });
+
+
+    $("#auth_form").submit(function(e) {
+      e.preventDefault();
+        var form_data_auth = new FormData(this);
+        $("input[name=password]").attr({"type":"password"});
+        $(".see_pass").removeClass("not_see"); 
+        $.ajax({
+            type: 'POST',
+            url: '...',
+            data: form_data_auth,
+            processData: false,
+            contentType: false,
+            beforeSend: function() {
+                $('#send_form').val('ПОДОЖДИТЕ...');
+
+            },
+            success: function(d) {
+                $(this).find('input').val('');
+                
+            },
+            error: function(xhr){
+                alert('Ошибка! Попробуйте позже!');
+            }
+        });
+        e.preventDefault();
+    });
+
+    $('.slider').slick({
+      autoplay: false,
+      dots: true
+    });
   });
 
 

@@ -574,6 +574,34 @@ footer .row .col-12{
 	.navbar-expand-lg .navbar-nav .nav-link{
 		padding-left: 10px;
 	}
+	.slider_1 .slick-next, .slider_1 .slick-next:hover,.slider_1 .slick-next:focus {
+		top: 36%!important;
+		background-position: center !important;
+	    background-repeat: no-repeat !important;
+	    background: url(../images/slider_arrow_1.png) rgba(0,0,0,0.6);
+	    transform: rotate(180deg);
+	}
+	.slider_1 .slick-prev, .slider_1 .slick-prev:hover,.slider_1 .slick-prev:focus{
+		top: 41%!important;
+		background-position: center !important;
+	    background-repeat: no-repeat !important;
+	    background: url(../images/slider_arrow_1.png) rgba(0,0,0,0.6);
+	}
+	.slider_2 .slick-prev,.slider_2 .slick-prev:hover,.slider_2 .slick-prev:focus{
+	    top: 130px!important;
+	    background-position: center !important;
+	    background-repeat: no-repeat !important;
+	    background: url(../images/slider_arrow_2.png);
+	    border: 1px solid #000000;
+	}
+	.slider_2 .slick-next,.slider_2 .slick-next:hover,.slider_2 .slick-next:focus{
+	    top: 110px!important;
+	    background-position: center !important;
+	    background-repeat: no-repeat !important;
+	    background: url(../images/slider_arrow_2.png);
+	    border: 1px solid #000000;
+	    transform: rotate(180deg);
+	}
 	#stocks .t_1{
 		background: url(../images/b_bg_1.jpg) !important;
 		background-size: cover !important;
@@ -675,6 +703,34 @@ footer .row .col-12{
 
 
 @media (min-width:993px){
+	.slider_1 .slick-next, .slider_1 .slick-next:hover,.slider_1 .slick-next:focus {
+		top: 170px!important;
+		background-position: center !important;
+	    background-repeat: no-repeat !important;
+	    background: url(../images/slider_arrow_1.png) rgba(0,0,0,0.6);
+	    transform: rotate(180deg);
+	}
+	.slider_1 .slick-prev, .slider_1 .slick-prev:hover,.slider_1 .slick-prev:focus{
+		top: 195px!important;
+		background-position: center !important;
+	    background-repeat: no-repeat !important;
+	    background: url(../images/slider_arrow_1.png) rgba(0,0,0,0.6);
+	}
+	.slider_2 .slick-prev,.slider_2 .slick-prev:hover,.slider_2 .slick-prev:focus{
+	    top: 130px!important;
+	    background-position: center !important;
+	    background-repeat: no-repeat !important;
+	    background: url(../images/slider_arrow_2.png);
+	    border: 1px solid #000000;
+	}
+	.slider_2 .slick-next,.slider_2 .slick-next:hover,.slider_2 .slick-next:focus{
+	    top: 110px!important;
+	    background-position: center !important;
+	    background-repeat: no-repeat !important;
+	    background: url(../images/slider_arrow_2.png);
+	    border: 1px solid #000000;
+	    transform: rotate(180deg);
+	}
 	.navbar-expand-lg .navbar-nav .nav-link{
 		padding-left: 10px;
 	}
@@ -777,6 +833,7 @@ footer .row .col-12{
 
 }
 /* NEW navbar */
+
 @media (min-width: 180px) and (max-width: 991px){
 	#navbar1{
 		position: fixed !important;
@@ -846,6 +903,36 @@ footer .row .col-12{
 	}
 	.phone_menu_footer{
 		display: none;
+	}
+}
+@media (min-width: 441px) and (max-width: 768px){
+	.slider_1 .slick-next, .slider_1 .slick-next:hover,.slider_1 .slick-next:focus {
+		top: 35%!important;
+		background-position: center !important;
+	    background-repeat: no-repeat !important;
+	    background: url(../images/slider_arrow_1.png) rgba(0,0,0,0.6);
+	    transform: rotate(180deg);
+	}
+	.slider_1 .slick-prev, .slider_1 .slick-prev:hover,.slider_1 .slick-prev:focus{
+		top: 41%!important;
+		background-position: center !important;
+	    background-repeat: no-repeat !important;
+	    background: url(../images/slider_arrow_1.png) rgba(0,0,0,0.6);
+	}
+	.slider_2 .slick-prev,.slider_2 .slick-prev:hover,.slider_2 .slick-prev:focus{
+	    top: 130px!important;
+	    background-position: center !important;
+	    background-repeat: no-repeat !important;
+	    background: url(../images/slider_arrow_2.png);
+	    border: 1px solid #000000;
+	}
+	.slider_2 .slick-next,.slider_2 .slick-next:hover,.slider_2 .slick-next:focus{
+	    top: 110px!important;
+	    background-position: center !important;
+	    background-repeat: no-repeat !important;
+	    background: url(../images/slider_arrow_2.png);
+	    border: 1px solid #000000;
+	    transform: rotate(180deg);
 	}
 }
 
@@ -2100,7 +2187,7 @@ hr{
 	font-weight: 300;
 	padding: 0px 15px;
 }
-.slider_2 .slick-prev,.slider_2 .slick-prev:hover{
+.slider_2 .slick-prev,.slider_2 .slick-prev:hover,.slider_2 .slick-prev:focus{
 	position: absolute;
     left: 0px;
     z-index: 1000;
@@ -2112,7 +2199,7 @@ hr{
     background: url(../images/slider_arrow_2.png);
     border: 1px solid #000000;
 }
-.slider_2 .slick-next,.slider_2 .slick-next:hover{
+.slider_2 .slick-next,.slider_2 .slick-next:hover,.slider_2 .slick-next:focus{
 	position: absolute;
     right: 0px;
     z-index: 1000;
@@ -2276,6 +2363,18 @@ hr{
 .service_page.light .t_1{
 	background: url(../images/light_t_1_bg.png);
 }
+.service_page.electric_1 .t_1{
+	background: url(../images/electric_1_t_1_bg.png);
+	background-position: bottom;
+}
+.service_page.electric_2 .t_1{
+	background: url(../images/electric_2_t_1_bg.png);
+	background-position: bottom;
+}
+.service_page.radiator .t_1{
+	background: url(../images/radiator_t_1_bg.png);
+	background-position: bottom;
+}
 .service_page .lights_exapmle{
 	width: 90px;
 	height: 60px;
@@ -2285,18 +2384,43 @@ hr{
 }
 .service_page.light .t_1_head_text_2{
 	color: #ffffff;
+	margin-top: 100px;
 }
+.service_page.electric_1 .t_1_head_text_2,.service_page.electric_2 .t_1_head_text_2{
+	color: #ffffff;
+	margin-top: 100px;
+}
+.service_page.radiator .t_1_head_text_2,{
+	color: #000000;
+	margin-top: 100px;
+}
+.service_page.electric_1 .t_2 p,.service_page.electric_2 .t_2 p,.service_page.radiator .t_2 p{
+	text-align: left;
+}
+
 .service_page.light .t_4{
 	margin-bottom: 20px; 
 }
-.service_page.light .t_5 .title{
+.service_page.light .t_5 .title,
+.service_page.radiator .t_5 .title{
 	font-size: 20px;
 	font-weight: 700;
+	padding-bottom: 5px;
 }
-.service_page.light .t_5 div{
+.service_page.light .t_5 div,
+.service_page.electric_2 .t_5 div,
+.service_page.radiator .t_5 div{
 	border: none!important;
 }
-.service_page.light .t_5 .text{
+.service_page.light .t_5 .text,
+.service_page.radiator .t_5 .text{
 	font-size: 16px;
 	font-weight: 500;
+}
+
+.service_page.electric_2 .t_5 p{
+	text-align: center;
+	font-size: 16px;
+	font-weight: 700;
+
 }

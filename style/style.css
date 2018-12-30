@@ -742,6 +742,52 @@ footer .row .col-12{
 		position: relative;
 		z-index: 100;
 	}
+	#index_block .t_1{
+		background: url(../images/b_bg_1.jpg) !important;
+		background-size: cover !important;
+		height: 420px!important;
+		position: relative;
+		z-index: 100;
+	}
+	#auth .sponsor_top_bg{
+		background: url(../images/b_bg_1.jpg) !important;
+		background-size: cover !important;
+		height: 320px!important;
+		position: relative;
+		z-index: 100;
+	}
+	#index_block .t_1 .index_big_logo{
+		bottom: -315px!important;
+	}
+	.service_page.light .t_1{
+		background: url(../images/b_bg_1.jpg)  !important;
+		background-size: cover !important;
+	}
+	.service_page.electric_1 .t_1{
+		background: url(../images/b_bg_1.jpg) !important;
+		background-size: cover !important;
+	}
+	.service_page.electric_2 .t_1{
+		background: url(../images/b_bg_1.jpg) !important;
+		background-size: cover !important;
+	}
+	.service_page.radiator .t_1{
+		background: url(../images/b_bg_2.jpg) !important;
+		background-size: cover !important;
+	}
+	.service_page.house .t_1{
+		background: url(../images/b_bg_2.jpg) !important;
+		background-size: cover !important;
+	}
+	.service_page.air .t_1{
+		background: url(../images/b_bg_1.jpg) !important;
+		background-size: cover !important;
+	}
+	.service_page.air .t_1{
+		background: url(../images/b_bg_1.jpg) !important;
+		background-size: cover !important;
+	}
+
 	#stocks .t_1_line{
 		height: 40px;
 		font-weight: 500 !important;
@@ -1741,7 +1787,7 @@ hr{
 .service_page .red_style_list li{
 	font-size: 16px;
 	font-weight: 300;
-	margin-bottom: 16px;
+	margin-bottom: 20px;
 }
 .service_page .red_style_list li:before{
 	content: "";
@@ -2375,6 +2421,14 @@ hr{
 	background: url(../images/radiator_t_1_bg.png);
 	background-position: bottom;
 }
+.service_page.house .t_1{
+	background: url(../images/house_t_1_bg.png);
+	background-position: top;
+}
+.service_page.air .t_1{
+	background: url(../images/air_t_1_bg.png);
+	background-position: top;
+}
 .service_page .lights_exapmle{
 	width: 90px;
 	height: 60px;
@@ -2382,22 +2436,30 @@ hr{
 	border: 1px solid #cccfdc;
 	margin: 0px 5px 5px 0px;
 }
-.service_page.light .t_1_head_text_2{
+
+.service_page.electric_1 .t_1_head_text_2,
+.service_page.electric_2 .t_1_head_text_2,
+.service_page.light .t_1_head_text_2,
+.service_page.air .t_1_head_text_2{
 	color: #ffffff;
 	margin-top: 100px;
 }
-.service_page.electric_1 .t_1_head_text_2,.service_page.electric_2 .t_1_head_text_2{
-	color: #ffffff;
-	margin-top: 100px;
+.service_page.house .t_1_head_text_2{
+	margin-top: 30px;
 }
 .service_page.radiator .t_1_head_text_2,{
 	color: #000000;
 	margin-top: 100px;
 }
-.service_page.electric_1 .t_2 p,.service_page.electric_2 .t_2 p,.service_page.radiator .t_2 p{
+.service_page.electric_1 .t_2 p,
+.service_page.electric_2 .t_2 p,
+.service_page.radiator .t_2 p,
+.service_page.house .t_2 p{
 	text-align: left;
 }
-
+.service_page .t_3{
+	border: none!important;
+}
 .service_page.light .t_4{
 	margin-bottom: 20px; 
 }
@@ -2409,7 +2471,9 @@ hr{
 }
 .service_page.light .t_5 div,
 .service_page.electric_2 .t_5 div,
-.service_page.radiator .t_5 div{
+.service_page.radiator .t_5 div,
+.service_page.house .t_5 div,
+.service_page.air .t_5 div{
 	border: none!important;
 }
 .service_page.light .t_5 .text,
@@ -2422,5 +2486,64 @@ hr{
 	text-align: center;
 	font-size: 16px;
 	font-weight: 700;
+}
 
+.service_page.house .conditions_img{
+	width: 100%; 
+}
+.service_page.house .conditions_text .min_cond_img_box{
+	width: 54px;
+	min-height: 85px;
+	margin: 0px 20px 20px 0px;
+	float:left;
+}
+.service_page.house .conditions_text .min_cond_img_box .min_cond_img{
+	width: 100%;
+	height: auto!important;
+}
+.service_page.house .conditions_text{
+	padding-top: 10px;
+	display: flex;
+	text-align: left;
+	line-height: 20px;
+	margin-bottom: 30px;
+	align-items: flex-start;
+}
+.service_page.house .conditions_text div:nth-child(1){
+	flex: 0 0 40px;
+}
+.service_page.house .conditions_text div:nth-child(2){
+
+}
+.service_page.house .conditions_text span{
+	font-weight: 500;
+}
+.service_page.house .house_t_5{
+	background: #7b8094;
+	color:#ffffff!important;
+}
+.service_page.house .house_t_5 .box_border_3{
+	height: 60px;
+	width: 60px;
+	padding-top: 3px;
+	text-align: center;
+	font-size: 36px;
+	background: url(../images/border_3.png);
+	margin: 10px auto; 
+}
+.service_page.house .house_t_5 p{
+	text-align: center;
+	font-size: 14px;
+}
+.service_page.house .house_t_5 h4{
+	font-size: 16px;
+	text-align: center;
+	font-weight: 700;
+}
+.service_page.house .t_5 p,
+.service_page.air .t_5 div{
+	text-align: center;
+	font-size: 16px;
+	font-weight: 700;
+	color: #000000;
 }

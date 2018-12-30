@@ -3,27 +3,27 @@
 }
 @font-face {
 	font-family: "MuseoSansCyrl";
-	src: url("/../fonts/MuseoSansCyrl.otf") format("opentype");
+	src: url("//fonts/MuseoSansCyrl.otf") format("opentype");
 	font-weight: 100;
 }
 @font-face {
 	font-family: "MuseoSansCyrl";
-	src: url("/../fonts/MuseoSansCyrl_0.otf") format("opentype");
+	src: url("//fonts/MuseoSansCyrl_0.otf") format("opentype");
 	font-weight: 300;
 }
 @font-face {
 	font-family: "MuseoSansCyrl";
-	src: url("/../fonts/MuseoSansCyrl_1.otf") format("opentype");
+	src: url("//fonts/MuseoSansCyrl_1.otf") format("opentype");
 	font-weight: 500;
 }
 @font-face {
 	font-family: "MuseoSansCyrl";
-	src: url("/../fonts/MuseoSansCyrl_2.otf") format("opentype");
+	src: url("//fonts/MuseoSansCyrl_2.otf") format("opentype");
 	font-weight: 700;
 }
 @font-face {
 	font-family: "MuseoSansCyrl";
-	src: url("/../fonts/MuseoSansCyrl_3.otf") format("opentype");
+	src: url("//fonts/MuseoSansCyrl_3.otf") format("opentype");
 	font-weight: 900;
 }
 body {
@@ -2133,11 +2133,11 @@ hr{
 	background-repeat: no-repeat !important;
 	position: absolute;
 	margin:-26px 0px 0px 315px;
-	background: url("/../images/see_pass.png");
-	/*background: url("/../images/not_see_pass.png");*/
+	background: url("//images/see_pass.png");
+	/*background: url("//images/not_see_pass.png");*/
 }
 #auth_form .see_pass.not_see{
-	background: url("/../images/not_see_pass.png") !important;
+	background: url("//images/not_see_pass.png") !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 }

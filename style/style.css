@@ -3,27 +3,47 @@
 }
 @font-face {
 	font-family: "MuseoSansCyrl";
+<<<<<<< HEAD
 	src: url("/fonts/MuseoSansCyrl.otf") format("opentype");
+=======
+	src: url("../fonts/MuseoSansCyrl.otf") format("opentype");
+>>>>>>> parent of 06c0655... change links
 	font-weight: 100;
 }
 @font-face {
 	font-family: "MuseoSansCyrl";
+<<<<<<< HEAD
 	src: url("/fonts/MuseoSansCyrl_0.otf") format("opentype");
+=======
+	src: url("../fonts/MuseoSansCyrl_0.otf") format("opentype");
+>>>>>>> parent of 06c0655... change links
 	font-weight: 300;
 }
 @font-face {
 	font-family: "MuseoSansCyrl";
+<<<<<<< HEAD
 	src: url("/fonts/MuseoSansCyrl_1.otf") format("opentype");
+=======
+	src: url("../fonts/MuseoSansCyrl_1.otf") format("opentype");
+>>>>>>> parent of 06c0655... change links
 	font-weight: 500;
 }
 @font-face {
 	font-family: "MuseoSansCyrl";
+<<<<<<< HEAD
 	src: url("/fonts/MuseoSansCyrl_2.otf") format("opentype");
+=======
+	src: url("../fonts/MuseoSansCyrl_2.otf") format("opentype");
+>>>>>>> parent of 06c0655... change links
 	font-weight: 700;
 }
 @font-face {
 	font-family: "MuseoSansCyrl";
+<<<<<<< HEAD
 	src: url("/fonts/MuseoSansCyrl_3.otf") format("opentype");
+=======
+	src: url("../fonts/MuseoSansCyrl_3.otf") format("opentype");
+>>>>>>> parent of 06c0655... change links
 	font-weight: 900;
 }
 body {
@@ -135,7 +155,11 @@ h3{
 	padding-top: 30px;
 }
 #stocks .t_1{
+<<<<<<< HEAD
 	/*background: url(/images/head_pic_stocks.png) !important;*/
+=======
+	/*background: url(../images/head_pic_stocks.png) !important;*/
+>>>>>>> parent of 06c0655... change links
 	background-size: cover !important;
 	height: 419px;
 	margin-top: -40px;
@@ -165,7 +189,11 @@ h3{
 }
 
 #register .t_1{
+<<<<<<< HEAD
 	background: url(/images/b_bg_2.jpg);
+=======
+	background: url(../images/b_bg_2.jpg);
+>>>>>>> parent of 06c0655... change links
 	background-size: cover !important;
 	height: 410px;
 	margin-top: 0px !important;
@@ -241,7 +269,11 @@ h3{
 	content: "";
 	width: 8px;
 	height: 10px;
+<<<<<<< HEAD
 	background: url(/images/red_arrow.png);
+=======
+	background: url(../images/red_arrow.png);
+>>>>>>> parent of 06c0655... change links
 	position: absolute;
 	top: 7px;
 	left: 16px;
@@ -349,7 +381,11 @@ h3{
 	background-color: #ffffff !important;
 }
 #success_register{
+<<<<<<< HEAD
 	background: url(/images/reg_success_bg.png);
+=======
+	background: url(../images/reg_success_bg.png);
+>>>>>>> parent of 06c0655... change links
 	background-size: cover;
 	height: 480px;
 	color: #ffffff;
@@ -470,7 +506,11 @@ footer .row .col-12{
 		padding-left: 10px;
 	}
 	#stocks .t_1{
+<<<<<<< HEAD
 		background: url(/images/head_pic_stocks.png) !important;
+=======
+		background: url(../images/head_pic_stocks.png) !important;
+>>>>>>> parent of 06c0655... change links
 		background-size: cover !important;
 		height: 419px;
 		margin-top: -40px;
@@ -488,7 +528,11 @@ footer .row .col-12{
 		position: relative;
 	}
 	#register .t_1{
+<<<<<<< HEAD
 		background: url(/images/register_t_1_bg.png) !important;
+=======
+		background: url(../images/register_t_1_bg.png) !important;
+>>>>>>> parent of 06c0655... change links
 	}
 	#register .btn_register_1{
 	    margin-top: 100px !important;
@@ -499,10 +543,17 @@ footer .row .col-12{
 		color: #ffffff;
 	}
 	.t_7{
+<<<<<<< HEAD
 		background: url(/images/t_7_bg.png);
 	}
 	#conditions .t_1{
 		background: url(/images/conditions_top_bg_phone.png) !important;
+=======
+		background: url(../images/t_7_bg.png);
+	}
+	#conditions .t_1{
+		background: url(../images/conditions_top_bg_phone.png) !important;
+>>>>>>> parent of 06c0655... change links
 	}
 	#conditions .btn_conditions_1{
 		width: 100% !important;
@@ -551,7 +602,11 @@ footer .row .col-12{
 		font-weight: 300;
 	}
 	.sponsor_top_bg{
+<<<<<<< HEAD
 		background: url(/images/sponsor_top_bg.png) !important;
+=======
+		background: url(../images/sponsor_top_bg.png) !important;
+>>>>>>> parent of 06c0655... change links
 		background-size: cover;
 		height: 80px !important;
 	}
@@ -578,32 +633,52 @@ footer .row .col-12{
 		top: 36%!important;
 		background-position: center !important;
 	    background-repeat: no-repeat !important;
+<<<<<<< HEAD
 	    background: url(/images/slider_arrow_1.png) rgba(0,0,0,0.6);
+=======
+	    background: url(../images/slider_arrow_1.png) rgba(0,0,0,0.6);
+>>>>>>> parent of 06c0655... change links
 	    transform: rotate(180deg);
 	}
 	.slider_1 .slick-prev, .slider_1 .slick-prev:hover,.slider_1 .slick-prev:focus{
 		top: 41%!important;
 		background-position: center !important;
 	    background-repeat: no-repeat !important;
+<<<<<<< HEAD
 	    background: url(/images/slider_arrow_1.png) rgba(0,0,0,0.6);
+=======
+	    background: url(../images/slider_arrow_1.png) rgba(0,0,0,0.6);
+>>>>>>> parent of 06c0655... change links
 	}
 	.slider_2 .slick-prev,.slider_2 .slick-prev:hover,.slider_2 .slick-prev:focus{
 	    top: 130px!important;
 	    background-position: center !important;
 	    background-repeat: no-repeat !important;
+<<<<<<< HEAD
 	    background: url(/images/slider_arrow_2.png);
+=======
+	    background: url(../images/slider_arrow_2.png);
+>>>>>>> parent of 06c0655... change links
 	    border: 1px solid #000000;
 	}
 	.slider_2 .slick-next,.slider_2 .slick-next:hover,.slider_2 .slick-next:focus{
 	    top: 110px!important;
 	    background-position: center !important;
 	    background-repeat: no-repeat !important;
+<<<<<<< HEAD
 	    background: url(/images/slider_arrow_2.png);
+=======
+	    background: url(../images/slider_arrow_2.png);
+>>>>>>> parent of 06c0655... change links
 	    border: 1px solid #000000;
 	    transform: rotate(180deg);
 	}
 	#stocks .t_1{
+<<<<<<< HEAD
 		background: url(/images/b_bg_1.jpg) !important;
+=======
+		background: url(../images/b_bg_1.jpg) !important;
+>>>>>>> parent of 06c0655... change links
 		background-size: cover !important;
 		height: 419px;
 		margin-top: -40px;
@@ -678,7 +753,11 @@ footer .row .col-12{
 	}
 	.t_7{
 		min-height: 400px;
+<<<<<<< HEAD
 		background: url(/images/b_bg_5.jpg);
+=======
+		background: url(../images/b_bg_5.jpg);
+>>>>>>> parent of 06c0655... change links
 	}
 	#register .btn_register_1{
 	    margin-top: 100px !important;
@@ -696,7 +775,11 @@ footer .row .col-12{
 		margin-top: 15px !important;
 	}
 	#success_register, #conditions .conditions_prefooter{
+<<<<<<< HEAD
 		background: url(/images/b_bg_3.jpg) !important;
+=======
+		background: url(../images/b_bg_3.jpg) !important;
+>>>>>>> parent of 06c0655... change links
 		background-position: bottom !important;
 	}
 }
@@ -707,27 +790,43 @@ footer .row .col-12{
 		top: 170px!important;
 		background-position: center !important;
 	    background-repeat: no-repeat !important;
+<<<<<<< HEAD
 	    background: url(/images/slider_arrow_1.png) rgba(0,0,0,0.6);
+=======
+	    background: url(../images/slider_arrow_1.png) rgba(0,0,0,0.6);
+>>>>>>> parent of 06c0655... change links
 	    transform: rotate(180deg);
 	}
 	.slider_1 .slick-prev, .slider_1 .slick-prev:hover,.slider_1 .slick-prev:focus{
 		top: 195px!important;
 		background-position: center !important;
 	    background-repeat: no-repeat !important;
+<<<<<<< HEAD
 	    background: url(/images/slider_arrow_1.png) rgba(0,0,0,0.6);
+=======
+	    background: url(../images/slider_arrow_1.png) rgba(0,0,0,0.6);
+>>>>>>> parent of 06c0655... change links
 	}
 	.slider_2 .slick-prev,.slider_2 .slick-prev:hover,.slider_2 .slick-prev:focus{
 	    top: 130px!important;
 	    background-position: center !important;
 	    background-repeat: no-repeat !important;
+<<<<<<< HEAD
 	    background: url(/images/slider_arrow_2.png);
+=======
+	    background: url(../images/slider_arrow_2.png);
+>>>>>>> parent of 06c0655... change links
 	    border: 1px solid #000000;
 	}
 	.slider_2 .slick-next,.slider_2 .slick-next:hover,.slider_2 .slick-next:focus{
 	    top: 110px!important;
 	    background-position: center !important;
 	    background-repeat: no-repeat !important;
+<<<<<<< HEAD
 	    background: url(/images/slider_arrow_2.png);
+=======
+	    background: url(../images/slider_arrow_2.png);
+>>>>>>> parent of 06c0655... change links
 	    border: 1px solid #000000;
 	    transform: rotate(180deg);
 	}
@@ -735,7 +834,11 @@ footer .row .col-12{
 		padding-left: 10px;
 	}
 	#stocks .t_1{
+<<<<<<< HEAD
 		background: url(/images/b_bg_1.jpg) !important;
+=======
+		background: url(../images/b_bg_1.jpg) !important;
+>>>>>>> parent of 06c0655... change links
 		background-size: cover !important;
 		height: 419px;
 		margin-top: -40px;
@@ -745,14 +848,22 @@ footer .row .col-12{
 <<<<<<< HEAD
 <<<<<<< HEAD
 	#index_block .t_1{
+<<<<<<< HEAD
 		background: url(/images/b_bg_1.jpg) !important;
+=======
+		background: url(../images/b_bg_1.jpg) !important;
+>>>>>>> parent of 06c0655... change links
 		background-size: cover !important;
 		height: 420px!important;
 		position: relative;
 		z-index: 100;
 	}
 	#auth .sponsor_top_bg{
+<<<<<<< HEAD
 		background: url(/images/b_bg_1.jpg) !important;
+=======
+		background: url(../images/b_bg_1.jpg) !important;
+>>>>>>> parent of 06c0655... change links
 		background-size: cover !important;
 		height: 320px!important;
 		position: relative;
@@ -762,6 +873,7 @@ footer .row .col-12{
 		bottom: -315px!important;
 	}
 	.service_page.light .t_1{
+<<<<<<< HEAD
 		background: url(/images/b_bg_1.jpg)  !important;
 		background-size: cover !important;
 	}
@@ -787,6 +899,33 @@ footer .row .col-12{
 	}
 	.service_page.air .t_1{
 		background: url(/images/b_bg_1.jpg) !important;
+=======
+		background: url(../images/b_bg_1.jpg)  !important;
+		background-size: cover !important;
+	}
+	.service_page.electric_1 .t_1{
+		background: url(../images/b_bg_1.jpg) !important;
+		background-size: cover !important;
+	}
+	.service_page.electric_2 .t_1{
+		background: url(../images/b_bg_1.jpg) !important;
+		background-size: cover !important;
+	}
+	.service_page.radiator .t_1{
+		background: url(../images/b_bg_2.jpg) !important;
+		background-size: cover !important;
+	}
+	.service_page.house .t_1{
+		background: url(../images/b_bg_2.jpg) !important;
+		background-size: cover !important;
+	}
+	.service_page.air .t_1{
+		background: url(../images/b_bg_1.jpg) !important;
+		background-size: cover !important;
+	}
+	.service_page.air .t_1{
+		background: url(../images/b_bg_1.jpg) !important;
+>>>>>>> parent of 06c0655... change links
 		background-size: cover !important;
 	}
 
@@ -852,13 +991,21 @@ footer .row .col-12{
 	}
 	.t_7{
 		min-height: 400px;
+<<<<<<< HEAD
 		background: url(/images/b_bg_5.jpg);
+=======
+		background: url(../images/b_bg_5.jpg);
+>>>>>>> parent of 06c0655... change links
 	}
 	#register .btn_register_1{
 	    margin-top: 100px !important;
 	}
 	#success_register, #conditions .conditions_prefooter{
+<<<<<<< HEAD
 		background: url(/images/b_bg_3.jpg) !important;
+=======
+		background: url(../images/b_bg_3.jpg) !important;
+>>>>>>> parent of 06c0655... change links
 		background-position: bottom !important;
 	}
 	#index_page #main_menu .navbar-brand{
@@ -905,7 +1052,11 @@ footer .row .col-12{
 		border-bottom: 1px solid #000000;
 	}
 	.phone_menu_header .close_menu{
+<<<<<<< HEAD
 		background: url(/images/close_icon.png);
+=======
+		background: url(../images/close_icon.png);
+>>>>>>> parent of 06c0655... change links
 		background-position: center;
 		border: 1px solid rgba(255,255,255,0.3);
 		border-radius: 50px;
@@ -931,7 +1082,11 @@ footer .row .col-12{
 		margin: -28px 16px 0px 0px;
 		height: 10px;
 		width: 6px;
+<<<<<<< HEAD
 		background: url(/images/menu_arrow.png);
+=======
+		background: url(../images/menu_arrow.png);
+>>>>>>> parent of 06c0655... change links
 	}
 	#navbar1 .nav-item .nav-link{
 		font-size: 16px;
@@ -945,7 +1100,11 @@ footer .row .col-12{
 		color: #ffffff; 
 	}
 	#navbar1 .nav-item.active .menu_arrow{
+<<<<<<< HEAD
 		background: url(/images/menu_arrow_w.png);
+=======
+		background: url(../images/menu_arrow_w.png);
+>>>>>>> parent of 06c0655... change links
 	}
 }
 
@@ -962,27 +1121,43 @@ footer .row .col-12{
 		top: 35%!important;
 		background-position: center !important;
 	    background-repeat: no-repeat !important;
+<<<<<<< HEAD
 	    background: url(/images/slider_arrow_1.png) rgba(0,0,0,0.6);
+=======
+	    background: url(../images/slider_arrow_1.png) rgba(0,0,0,0.6);
+>>>>>>> parent of 06c0655... change links
 	    transform: rotate(180deg);
 	}
 	.slider_1 .slick-prev, .slider_1 .slick-prev:hover,.slider_1 .slick-prev:focus{
 		top: 41%!important;
 		background-position: center !important;
 	    background-repeat: no-repeat !important;
+<<<<<<< HEAD
 	    background: url(/images/slider_arrow_1.png) rgba(0,0,0,0.6);
+=======
+	    background: url(../images/slider_arrow_1.png) rgba(0,0,0,0.6);
+>>>>>>> parent of 06c0655... change links
 	}
 	.slider_2 .slick-prev,.slider_2 .slick-prev:hover,.slider_2 .slick-prev:focus{
 	    top: 130px!important;
 	    background-position: center !important;
 	    background-repeat: no-repeat !important;
+<<<<<<< HEAD
 	    background: url(/images/slider_arrow_2.png);
+=======
+	    background: url(../images/slider_arrow_2.png);
+>>>>>>> parent of 06c0655... change links
 	    border: 1px solid #000000;
 	}
 	.slider_2 .slick-next,.slider_2 .slick-next:hover,.slider_2 .slick-next:focus{
 	    top: 110px!important;
 	    background-position: center !important;
 	    background-repeat: no-repeat !important;
+<<<<<<< HEAD
 	    background: url(/images/slider_arrow_2.png);
+=======
+	    background: url(../images/slider_arrow_2.png);
+>>>>>>> parent of 06c0655... change links
 	    border: 1px solid #000000;
 	    transform: rotate(180deg);
 	}
@@ -992,7 +1167,11 @@ footer .row .col-12{
 
 
 #conditions .t_1{
+<<<<<<< HEAD
 	background: url(/images/b_bg_2.jpg);
+=======
+	background: url(../images/b_bg_2.jpg);
+>>>>>>> parent of 06c0655... change links
 	background-size: cover !important;
 	height: 410px;
 	margin-top: 0px !important;
@@ -1203,6 +1382,7 @@ footer .row .col-12{
     margin: 5px 0px 0px -29px;
 }
 #conditions .companies_contacts .companies_contacts_address:before{
+<<<<<<< HEAD
 	background: url(/images/contacts_icon_1.png);
 }
 #conditions .companies_contacts .companies_contacts_phone:before{
@@ -1210,6 +1390,15 @@ footer .row .col-12{
 }
 #conditions .companies_contacts .companies_contacts_email:before{
 	background: url(/images/contacts_icon_3.png);
+=======
+	background: url(../images/contacts_icon_1.png);
+}
+#conditions .companies_contacts .companies_contacts_phone:before{
+	background: url(../images/contacts_icon_2.png);
+}
+#conditions .companies_contacts .companies_contacts_email:before{
+	background: url(../images/contacts_icon_3.png);
+>>>>>>> parent of 06c0655... change links
 }
 #conditions .companies_socials{
 	height: 75px;
@@ -1229,6 +1418,7 @@ footer .row .col-12{
 	height: 40px;
 }
 #conditions .companies_socials .companies_socials_img .vk{
+<<<<<<< HEAD
 	background: url(/images/vk_logo.png);
 	margin: 0px auto; 
 }
@@ -1242,11 +1432,30 @@ footer .row .col-12{
 }
 #conditions .companies_socials .companies_socials_img .tw{
 	background: url(/images/tw_logo.png);
+=======
+	background: url(../images/vk_logo.png);
+	margin: 0px auto; 
+}
+#conditions .companies_socials .companies_socials_img .fb{
+	background: url(../images/fb_logo.png);
+	margin: 0px auto; 
+}
+#conditions .companies_socials .companies_socials_img .insta{
+	background: url(../images/insta_logo.png);
+	margin: 0px auto; 
+}
+#conditions .companies_socials .companies_socials_img .tw{
+	background: url(../images/tw_logo.png);
+>>>>>>> parent of 06c0655... change links
 	margin: 0px auto; 
 }
 #conditions .conditions_prefooter{
 	height: 480px;
+<<<<<<< HEAD
 	background: url(/images/reg_success_bg.png);
+=======
+	background: url(../images/reg_success_bg.png);
+>>>>>>> parent of 06c0655... change links
 	background-size: cover;
 }
 #conditions .conditions_prefooter .conditions_prefooter_title{
@@ -1318,7 +1527,11 @@ footer .row .col-12{
 	align-items: stretch;
 }
 #lk_user .lk_panel_block .lk_panel_left .btn_edit_profile .btn_img{
+<<<<<<< HEAD
 	background: url(/images/lk_edit_icon.png);
+=======
+	background: url(../images/lk_edit_icon.png);
+>>>>>>> parent of 06c0655... change links
 	background-repeat: no-repeat;
 	background-position: center center;
 	flex: 0 0 20px
@@ -1408,7 +1621,11 @@ footer .row .col-12{
 }
 
 .sponsor_top_bg{
+<<<<<<< HEAD
 	background: url(/images/sponsor_top_bg.png);
+=======
+	background: url(../images/sponsor_top_bg.png);
+>>>>>>> parent of 06c0655... change links
 	background-size: cover;
 	height: 300px;
 }
@@ -1476,7 +1693,11 @@ hr{
 	height: 40px;
 	width: 40px;
 	right: 60px;
+<<<<<<< HEAD
 	background: url(/images/chat_logo.png); 
+=======
+	background: url(../images/chat_logo.png); 
+>>>>>>> parent of 06c0655... change links
 	position: absolute;
 }
 #index_page #main_menu .call_btn{
@@ -1484,7 +1705,11 @@ hr{
 	height: 40px;
 	width: 40px;
 	float:right;
+<<<<<<< HEAD
 	background: url(/images/call_logo.png);
+=======
+	background: url(../images/call_logo.png);
+>>>>>>> parent of 06c0655... change links
 	margin: 0px 5px;
 	right: 10px;
 	position: absolute;
@@ -1494,12 +1719,20 @@ hr{
 }
 #index_block .t_1{
 	height: 240px;
+<<<<<<< HEAD
 	background: url(/images/index_t_1_bg.png);
+=======
+	background: url(../images/index_t_1_bg.png);
+>>>>>>> parent of 06c0655... change links
 	background-size: cover;
 	background-position: top;
 }
 #index_block .t_1 .index_big_logo{
+<<<<<<< HEAD
 	background: url(/images/index_big_logo.png);
+=======
+	background: url(../images/index_big_logo.png);
+>>>>>>> parent of 06c0655... change links
 	height: 132px;
 	width: 100px;
 	position: relative;
@@ -1566,7 +1799,11 @@ hr{
 #index_block .t_4 .number_block{
 	height: 60px;
 	width: 60px;
+<<<<<<< HEAD
 	background: url(/images/border_angle_block.png);
+=======
+	background: url(../images/border_angle_block.png);
+>>>>>>> parent of 06c0655... change links
 	background-size: cover;
 	display: flex;
 	align-items: center;
@@ -1586,7 +1823,11 @@ hr{
 	text-align: center;
 }
 #index_block .t_5{
+<<<<<<< HEAD
 	background: url(/images/t_5_bg.png);
+=======
+	background: url(../images/t_5_bg.png);
+>>>>>>> parent of 06c0655... change links
 	background-size: cover;
 	background-position: bottom;
 }
@@ -1619,7 +1860,11 @@ hr{
 	content: "";
 	height: 20px;
 	width: 20px;
+<<<<<<< HEAD
 	background: url(/images/adv_mark.png);
+=======
+	background: url(../images/adv_mark.png);
+>>>>>>> parent of 06c0655... change links
     position: absolute;
     margin: 3px 0px 0px -29px
 }
@@ -1701,7 +1946,11 @@ hr{
 	position: relative;
 }
 #index_block .t_7{
+<<<<<<< HEAD
 	background: url(/images/index_t_7_bg.png) !important;
+=======
+	background: url(../images/index_t_7_bg.png) !important;
+>>>>>>> parent of 06c0655... change links
 	background-size: cover !important;
 	height: 419px;
 	margin-top: -40px;
@@ -1767,7 +2016,11 @@ hr{
 	z-index: 100;
 }
 .service_page.conditioner .t_1{
+<<<<<<< HEAD
 	background: url(/images/conditioner_t_1_bg.png);
+=======
+	background: url(../images/conditioner_t_1_bg.png);
+>>>>>>> parent of 06c0655... change links
 }
 .service_page .t_1 .t_1_head_text_2{
 	font-size: 24px;
@@ -2125,7 +2378,11 @@ hr{
 	content: "";
 	height: 10px;
 	width: 8px; 
+<<<<<<< HEAD
 	background: url(/images/red_arrow.png);
+=======
+	background: url(../images/red_arrow.png);
+>>>>>>> parent of 06c0655... change links
 	position: absolute;
 	margin: 6px 0px 0px -18px;
 }
@@ -2139,11 +2396,19 @@ hr{
 	background-repeat: no-repeat !important;
 	position: absolute;
 	margin:-26px 0px 0px 315px;
+<<<<<<< HEAD
 	background: url("//images/see_pass.png");
 	/*background: url("//images/not_see_pass.png");*/
 }
 #auth_form .see_pass.not_see{
 	background: url("//images/not_see_pass.png") !important;
+=======
+	background: url("../images/see_pass.png");
+	/*background: url("../images/not_see_pass.png");*/
+}
+#auth_form .see_pass.not_see{
+	background: url("../images/not_see_pass.png") !important;
+>>>>>>> parent of 06c0655... change links
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 }
@@ -2175,7 +2440,11 @@ hr{
     height: 40px;
     background-position: center !important;
     background-repeat: no-repeat !important;
+<<<<<<< HEAD
     background: url(/images/slider_arrow_1.png)  rgba(0,0,0,0.6);
+=======
+    background: url(../images/slider_arrow_1.png)  rgba(0,0,0,0.6);
+>>>>>>> parent of 06c0655... change links
 }
 .slider_1 .slick-next,.slider_1 .slick-next:hover{
 	position: absolute;
@@ -2186,7 +2455,11 @@ hr{
     height: 40px;
     background-position: center !important;
     background-repeat: no-repeat !important;
+<<<<<<< HEAD
     background: url(/images/slider_arrow_1.png)  rgba(0,0,0,0.6);
+=======
+    background: url(../images/slider_arrow_1.png)  rgba(0,0,0,0.6);
+>>>>>>> parent of 06c0655... change links
     transform: rotate(180deg);
 }
 .slider_1 .slick-next:before,.slider_1 .slick-prev:before{
@@ -2248,7 +2521,11 @@ hr{
     height: 40px;
     background-position: center !important;
     background-repeat: no-repeat !important;
+<<<<<<< HEAD
     background: url(/images/slider_arrow_2.png);
+=======
+    background: url(../images/slider_arrow_2.png);
+>>>>>>> parent of 06c0655... change links
     border: 1px solid #000000;
 }
 .slider_2 .slick-next,.slider_2 .slick-next:hover,.slider_2 .slick-next:focus{
@@ -2260,7 +2537,11 @@ hr{
     height: 40px;
     background-position: center !important;
     background-repeat: no-repeat !important;
+<<<<<<< HEAD
     background: url(/images/slider_arrow_2.png);
+=======
+    background: url(../images/slider_arrow_2.png);
+>>>>>>> parent of 06c0655... change links
     border: 1px solid #000000;
     transform: rotate(180deg);
 }
@@ -2331,7 +2612,11 @@ hr{
 	content: "";
 	height: 10px;
 	width: 8px; 
+<<<<<<< HEAD
 	background: url(/images/red_arrow.png);
+=======
+	background: url(../images/red_arrow.png);
+>>>>>>> parent of 06c0655... change links
 	position: absolute;
 	margin: 6px 0px 0px -18px;
 }
@@ -2364,7 +2649,11 @@ hr{
 	position: relative;
 }
 .service_page .pre_footer{
+<<<<<<< HEAD
 	background: url(/images/index_t_7_bg.png) !important;
+=======
+	background: url(../images/index_t_7_bg.png) !important;
+>>>>>>> parent of 06c0655... change links
 	background-size: cover !important;
 	height: 419px;
 	margin-top: -40px;
@@ -2413,6 +2702,7 @@ hr{
 	margin-top: 100px !important;
 }
 .service_page.light .t_1{
+<<<<<<< HEAD
 	background: url(/images/light_t_1_bg.png);
 }
 .service_page.electric_1 .t_1{
@@ -2425,16 +2715,38 @@ hr{
 }
 .service_page.radiator .t_1{
 	background: url(/images/radiator_t_1_bg.png);
+=======
+	background: url(../images/light_t_1_bg.png);
+}
+.service_page.electric_1 .t_1{
+	background: url(../images/electric_1_t_1_bg.png);
+	background-position: bottom;
+}
+.service_page.electric_2 .t_1{
+	background: url(../images/electric_2_t_1_bg.png);
+	background-position: bottom;
+}
+.service_page.radiator .t_1{
+	background: url(../images/radiator_t_1_bg.png);
+>>>>>>> parent of 06c0655... change links
 	background-position: bottom;
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
 .service_page.house .t_1{
+<<<<<<< HEAD
 	background: url(/images/house_t_1_bg.png);
 	background-position: top;
 }
 .service_page.air .t_1{
 	background: url(/images/air_t_1_bg.png);
+=======
+	background: url(../images/house_t_1_bg.png);
+	background-position: top;
+}
+.service_page.air .t_1{
+	background: url(../images/air_t_1_bg.png);
+>>>>>>> parent of 06c0655... change links
 	background-position: top;
 }
 =======
@@ -2505,7 +2817,11 @@ hr{
 	padding-top: 3px;
 	text-align: center;
 	font-size: 36px;
+<<<<<<< HEAD
 	background: url(/images/border_3.png);
+=======
+	background: url(../images/border_3.png);
+>>>>>>> parent of 06c0655... change links
 	margin: 10px auto; 
 }
 .service_page.house .house_t_5 p{

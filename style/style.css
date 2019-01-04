@@ -828,6 +828,9 @@ footer .row .col-12{
 		width: 300px !important;
 		margin:20px auto !important;	
 	}
+	.brand_modal .brand_back_btn{
+		width: 300px!important;
+	}
 	.t_2{
 		margin-top: 60px;
 	}
@@ -2570,4 +2573,43 @@ hr{
 	font-size: 16px;
 	font-weight: 700;
 	color: #000000;
+}
+
+
+.brand_modal .brand_title{
+	height: 30px;
+	text-align: left!important;
+}
+.brand_modal .brand_title img{
+	height: 100%;
+}
+.brand_modal .brand_hr{
+	height: 1px;
+	width: 100%;
+	margin: 10px 0px;
+	background-color: #cccfdc;
+}
+.brand_modal .brand_text{
+	font-size: 16px;
+	padding-bottom: 20px;
+}
+.brand_img img{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.brand_modal .brand_back_btn{
+	width: 100%;
+	height: 40px;
+	padding-top: 7px;
+	text-align: center;
+	display: block;
+	color: #c11525;
+	border: 1px solid #c11525;
+	margin: 10px auto;
+}
+.brand_modal .brand_back_btn img{
+	transform: rotate(180deg);
+	position: absolute;
+    margin-left: -95px;
+    margin-top: 5px;
 }

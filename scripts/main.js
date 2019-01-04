@@ -116,6 +116,20 @@ $(document).ready(function () {
       autoplay: false,
       dots: true
     });
+
+    // $('.lights_exapmle').on('click', function(){
+    //   var name_modal = $(this).data('modal');
+    //   $.fancybox.open({src  : name_modal, type : 'inline',});
+    // });
+    $('.lights_exapmle').fancybox({
+        'titlePosition' : 'inside',
+        'transitionIn' : 'none',
+        'transitionOut' : 'none'
+    });
+    
+    
+        // $.fancybox.close(true);
+    
   });
 
 

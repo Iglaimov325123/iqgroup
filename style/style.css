@@ -828,7 +828,10 @@ footer .row .col-12{
 		width: 300px !important;
 		margin:20px auto !important;	
 	}
-	.brand_modal .brand_back_btn{
+	.brand_back_btn{
+		width: 300px!important;
+	}
+	.key_page_btn{
 		width: 300px!important;
 	}
 	.t_2{
@@ -2615,7 +2618,7 @@ hr{
 	width: 100%;
 	margin-bottom: 10px;
 }
-.brand_modal .brand_back_btn{
+.brand_back_btn{
 	width: 100%;
 	height: 40px;
 	padding-top: 7px;
@@ -2625,7 +2628,10 @@ hr{
 	border: 1px solid #c11525;
 	margin: 10px auto;
 }
-.brand_modal .brand_back_btn img{
+.brand_back_btn:hover{
+	color: #c11525!important;
+}
+.brand_back_btn img{
 	transform: rotate(180deg);
 	position: absolute;
     margin-left: -95px;
@@ -2653,5 +2659,82 @@ hr{
 }
 .t_score div .content_score span{
 	font-size: 24px;
+	font-weight: 700;
+}
+
+.keys_blocks{
+	display: flex;
+	margin: 10px 0px;
+}
+.keys_blocks img{
+	flex: 0 0 140px;
+}
+.keys_blocks .keys_text_1{
+	flex: 1 1 60%;
+	padding: 5px;
+	border-top: 1px solid #bfc3d3;
+	margin-left: 5px; 
+}
+.keys_blocks .keys_text_1 h3{
+	font-size: 16px;
+	font-weight: 700;
+}
+.keys_1 h3,.key_page h3{
+	font-size: 24px;
+	font-weight: 700;
+}
+.key_page_btn{
+	width: 100%;
+	height: 40px;
+	padding-top: 7px;
+	text-align: center;
+	display: block;
+	color: #000000;
+	border: 1px solid #000000;
+	margin: 10px auto;
+}
+.key_page_btn:hover{
+	color: #000000!important;
+}
+.key_page_btn img{
+	position: absolute;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+.key_page h4{
+	font-size: 18px;
+	font-weight: 700;
+}
+.key_page .cont_block{
+	background-color: #e5e7ed;
+	border: 1px solid #ffffff;
+	height: 40px;
+	display: flex;
+	width: 100%;
+}
+.key_page .cont_block .cont_img{
+	height: 40px;
+	flex: 0 0 40px;
+	border-right: 1px solid #ffffff;
+	text-align: center;
+	padding-top: 10px;
+}
+.key_page .cont_block .cont_text{
+	height: 40px;
+	padding: 10px 5px 0px 10px;
+	font-size: 14px;
+	font-weight: 300;	
+}
+.key_page .cont_block .cont_text span{
+	font-weight: 700;
+}
+.key_page .object{
+	margin-top: 15px;
+}
+.key_page .object h5{
+	font-size: 16px;
+	font-weight: 800;
+}
+.key_page .object p span{
 	font-weight: 700;
 }

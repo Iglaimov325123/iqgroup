@@ -788,6 +788,13 @@ footer .row .col-12{
 		background-size: cover !important;
 	}
 
+	#serv_form input[name=name], #serv_form input[name=phone], #serv_form input[name=email]{
+		margin-bottom: 40px!important;
+	}
+
+	.service_page.conditioner .t_8,.service_page.light .t_8,.service_page.electric_1 .t_8,.service_page.radiator .t_8,.service_page.air .t_8,.service_page.electric_2 .t_8,.service_page.house .t_8{
+		border-top: 1px solid #f0f1f4;
+	}
 	#stocks .t_1_line{
 		height: 40px;
 		font-weight: 500 !important;
@@ -861,7 +868,7 @@ footer .row .col-12{
 		background: url(/images/b_bg_3.jpg) !important;
 		background-position: bottom !important;
 	}
-	#index_page #main_menu .navbar-brand{
+	#index_page #main_menu .navbar-brand,.serv #main_menu .navbar-brand{
 		margin: 0px !important;
 	}
 	#index_page .chat_btn{
@@ -1458,28 +1465,31 @@ hr{
 
 /*index.html*/
 
-#index_page #main_menu{
+#index_page #main_menu,.serv #main_menu{
 	height: 60px !important;
 	padding-top: 5px !important;
 }
-#index_page #main_menu .navbar-brand{
+#index_page #main_menu .navbar-brand,.serv #main_menu .navbar-brand{
 	margin: 0px auto;
     display: block;
 }
 #index_page #main_menu .navbar-brand img{
 	height: 50px !important;
 }
-#index_page #main_menu .navbar-toggler{
+.main_logo_index{
+	height: 50px !important;
+}
+#index_page #main_menu .navbar-toggler,.serv #main_menu .navbar-toggler{
     position: absolute;
 }
-#index_page #main_menu .chat_btn{
+#index_page #main_menu .chat_btn, .serv #main_menu .chat_btn{
 	height: 40px;
 	width: 40px;
 	right: 60px;
 	background: url(/images/chat_logo.png); 
 	position: absolute;
 }
-#index_page #main_menu .call_btn{
+#index_page #main_menu .call_btn, .serv #main_menu .call_btn{
 	cursor: pointer;
 	height: 40px;
 	width: 40px;
@@ -1489,7 +1499,7 @@ hr{
 	right: 10px;
 	position: absolute;
 }
-#index_page .phone{
+#index_page .phone, .serv .phone{
 	display: none;
 }
 #index_block .t_1{
@@ -1689,6 +1699,7 @@ hr{
 	font-weight: 300;
 	padding-top: 15px;
 	line-height: 18px;
+	height: 102px;
 }
 #index_block .t_6_line{
 	height: 40px;
